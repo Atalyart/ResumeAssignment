@@ -1,2 +1,46 @@
-#lesson 3 css
- 
+/* whole page
+--------------------------*/
+    body {
+        background-color: rgb(252, 244, 233);
+        padding: 30px;
+    }
+/* headers
+--------------------------*/
+    h1 {
+        color:rgb(190, 131, 170);
+        font-size: 3em;
+        }
+    .pink_text {
+        color: rgb(190, 131, 170);
+        background-color: rgb(244, 252, 233);
+        }
+/* about me
+--------------------------*/
+/* portfolio
+--------------------------*/
+    .portfolio {
+        background-color: rgb(67, 109, 160);
+        color: rgb(253, 253, 253);
+        padding: 30px;
+        }
+        /* links within portfolio
+        --------------------------*/
+        .portfolio a {
+            background:rgb(190, 131, 170);
+            color: white;
+            padding: 7px;
+            border-radius: 6px;
+            }
+/* work experince
+--------------------------*/
+    .work {
+    font-family: Arial, Helvetica, sans-serif;
+    }
+    .blue_text {
+        color: rgb(110, 125, 188);
+    }
+    img {
+        width: 300px;
+        height: auto;
+        }
+    
