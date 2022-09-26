@@ -1,3 +1,47 @@
+/* nav bar
+--------------------------*/
+Nav {
+    font-family: Arial, Helvetica, sans-serif;
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    background-color: rgb(67, 109, 160);
+    justify-content: flex-end;
+    display: flex;
+    align-items: center;
+    padding: 10px 0px;
+}
+
+.Nav_bar {
+    display: inline-block;
+    padding: 0px 20px;
+    list-style: none;
+}
+li, a, button {
+    font-weight: 500;
+    font-size: 16px;
+    color: black;
+    text-decoration: none;
+}
+        /* hover effect and delay
+                    --------------------------*/
+            .Nav_bar li a{
+                transition: all 0.3s ease 0s;
+            }
+            .Nav_bar li a:hover {
+                color: rgb(190, 131, 170);
+            }
+    /* button effects
+    --------------------------*/
+    button {
+        padding: 9px 25px;
+        background-color: rgb(190, 131, 170);
+        border: none;
+        border-radius: 0 5px 5px 0;
+        color: rgb(255, 255, 255);
+        transition: all 0.3s ease 0s;
+    }
+            
 /* whole page
 --------------------------*/
     body {
